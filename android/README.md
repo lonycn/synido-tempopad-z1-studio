@@ -48,7 +48,7 @@
 
 - `assets/FluidR3_GM.sf2`：148398306字节完整采样库，MIT字体数据；不是Apple DLS、GeneralUser或正弦替代钢琴。
 - `vendor/tinysoundfont/`：固定commit853a0a171759f1ddba0de1442133a75912bbeffa，MIT引擎。
-- `assets/licenses/instrument-sources.json`记录URL/字节数/SHA256/许可。完整MIT及NDK runtime notices随APK打包并可从“关于”离线查看。Debian包仅提取字体/copyright，未执行/安装或打包其GPL维护脚本。没有作超出原notice的溯源担保，未公开上传/发布。
+- `assets/licenses/instrument-sources.json`记录URL/字节数/SHA256/许可。完整MIT及NDK runtime notices随APK打包并可从“关于”离线查看。Debian包仅提取字体/copyright，未执行/安装或打包其GPL维护脚本。没有作超出原notice的溯源担保。预发布APK经用户授权公开，包含字体及完整MIT/NDK notices；原始字体和私钥不提交Git历史。
 - NDK23.1.7779620，arm64 API26 JNI/AAudio，48kHz双声道float，低延迟模式只是请求，不是实测毫秒数。TSF不支持modulators/reverb/chorus；128是分层声部上限，不等于128用户音符。
 - `Synth`在回调线程拥有渲染/声部状态，预分配声部，256槽SPSC队列，溢出panic代次淘汰旧事件，输出有限并限制±0.98。回调不分配/加锁/读盘/开关流；loader异步加载和销毁，旧loader结果不复活已销毁Activity。
 
@@ -61,7 +61,7 @@
 
 ## 构建与记录
 
-公开源码不含大字体库、私钥、安装包或设备报告。首次先运行`python3 android/fetch_soundfont.py`，联网获取固定Debian包、验证包与字体大小/SHA256后仅提取SF2，不执行/安装包。也可用`--archive /path/to/package.deb`离线准备。此准备步骤不属于App联网行为，之后构建/演奏均可离线。
+Git源码不含大字体库、私钥、安装包或设备报告；可安装APK另见[预发布下载](https://github.com/lonycn/synido-tempopad-z1-studio/releases/tag/v2.1-android-0.3.1)，其中包含合法字体及完整notice，私钥不发布。自行构建时首次先运行`python3 android/fetch_soundfont.py`，联网获取固定Debian包、验证包与字体大小/SHA256后仅提取SF2，不执行/安装包。也可用`--archive /path/to/package.deb`离线准备。此准备步骤不属于App联网行为，之后构建/演奏均可离线。
 
 项目根执行`./android/build.sh`。使用本机JDK/SDK35/NDK23.1，无Gradle/Maven下载，不访问ADB或真实MIDI。`python3 android/verify_instruments.py [APK路径]`检查固定输入/包内容。不要复制开发副本密钥，保留`local/test.keystore`用于原位更新。
 

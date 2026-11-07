@@ -9,6 +9,17 @@
 
 ![macOS EASY 演奏界面](docs/images/studio-easy.png)
 
+## 下载安装
+
+**[打开 Releases 下载页](https://github.com/lonycn/synido-tempopad-z1-studio/releases/tag/v2.1-android-0.3.1)** · 当前为 **Pre-release 测试版**，两个平台版本独立。
+
+| 平台 | 安装包 | 校验文件 |
+|---|---|---|
+| macOS 13+ / Apple Silicon | [macOS 2.1 ZIP · 约5MB](https://github.com/lonycn/synido-tempopad-z1-studio/releases/download/v2.1-android-0.3.1/Z1-Studio-2.1-macOS-arm64.zip) | [SHA-256](https://github.com/lonycn/synido-tempopad-z1-studio/releases/download/v2.1-android-0.3.1/Z1-Studio-2.1-macOS-arm64.zip.sha256) |
+| Android arm64 | [Android 0.3.1 APK · 约148MiB](https://github.com/lonycn/synido-tempopad-z1-studio/releases/download/v2.1-android-0.3.1/Z1-Studio-Android-0.3.1-test.apk) | [SHA-256](https://github.com/lonycn/synido-tempopad-z1-studio/releases/download/v2.1-android-0.3.1/Z1-Studio-Android-0.3.1-test.apk.sha256) |
+
+请下载对应 ZIP／APK，不是 GitHub 的 Source code 压缩包。Mac 构建未公证，Android 使用本地测试证书；兼容与原位更新限制见发布说明。私钥不会随安装包或源码发布。
+
 ## 能做什么
 
 - **DRUM** — 64 个实体位置均有声音路由，保留 MIDI 真实力度；扩展音区复用部分 GM 鼓声，不是 64 种独立乐器。
@@ -59,7 +70,7 @@ macOS 可通过“硬件显示偏移”校准显示；Android 暂无同等偏移
 
 ## 从源码构建
 
-本仓库提供源码，**不提交预编译 App／APK、签名密钥或大音色库**；目前不提供 GitHub Release 下载。
+Git 源码历史**不提交预编译 App／APK、签名密钥或大音色库**。可安装文件通过上方 GitHub Releases 单独提供；如需自行构建，按以下步骤操作。
 
 ```bash
 git clone https://github.com/lonycn/synido-tempopad-z1-studio.git
@@ -146,7 +157,7 @@ references/          自写协议研究及第三方来源说明
 本项目不是 Synido 官方产品，也未声明获得厂商背书。**原创代码暂未指定统一开源许可证**，公开仓库不代表第三方内容可任意再分发。
 
 - TinySoundFont：MIT，保留完整版权／许可；版本固定。
-- FluidR3 GM 字体数据：MIT，下载及提取前校验固定摘要；不上传字体本身，不执行 Debian 安装包或分发其维护脚本。
+- FluidR3 GM 字体数据：MIT，下载及提取前校验固定摘要；不向 Git 历史提交原始字体。发布的 Android APK 包含字体及完整版权／许可，不执行 Debian 安装包或分发其维护脚本。
 - macOS Apple DLS／GarageBand 音色、厂商 PDF／官方工程均不随本仓库分发。
 - 原创 EASY 音频与 Z1 Studio 图标在仓库中；第三方 notice 及来源摘要见 [来源说明](references/SOURCES.md) 和 `android/assets/licenses/`。
 

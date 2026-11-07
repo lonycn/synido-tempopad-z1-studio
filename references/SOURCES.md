@@ -5,7 +5,7 @@
 - TinySoundFont：MIT，固定commit853a0a171759f1ddba0de1442133a75912bbeffa，https://github.com/schellingb/TinySoundFont 。完整许可在`../android/vendor/tinysoundfont/LICENSE`与APK assets/licenses/。
 - FluidR3 GM：Debian fluid-soundfont-gm3.1-6，仅字体数据MIT；https://metadata.ftp-master.debian.org/changelogs/main/f/fluid-soundfont/fluid-soundfont_3.1-6_copyright 。取得的.deb按官方SHA256验证，仅提取字体/copyright，不执行包或打包其单独GPL维护脚本。
 - 完整固定来源、字节数/SHA256和font/packaging区别：`../android/assets/licenses/instrument-sources.json`；完整MIT、NDK静态runtime notices随APK并可离线阅读。没有作超出notice的素材溯源保证。
-- 目前仅本机项目/用户平板开发测试，不自动授予整个项目统一第三方发行许可，不上传/公开发布，不复制Apple DLS；真正对外发行仍须复核许可、签名和隐私声明。
+- 源码与预发布安装包经用户授权公开；原始字体不进Git历史，Android APK携带MIT字体及完整版权/许可、NDK notices。发布前已复核包内容、摘要与签名，不复制Apple DLS/厂商工程；这不自动授予项目统一第三方许可或保证其他设备兼容性。包内来源清单保留素材取得时的历史状态说明。
 
 ## 官方说明书
 
