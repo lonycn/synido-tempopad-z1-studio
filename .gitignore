@@ -1,0 +1,43 @@
+# Local metadata / generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+/generated/
+/backups/
+/dist/
+/tests/reports/
+/android/build/
+/android/local/
+/android/acquisition/
+
+# Never publish credentials or signing material
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+
+# Prepare large licensed font locally using android/fetch_soundfont.py
+*.sf2
+*.sf3
+*.dls
+*.deb
+
+# Local host projects and third-party manuals are not source distribution
+/projects/
+/references/vendor/
+*.band/
+*.eas
+*.log
+
+# Only current, reviewed UI screenshots
+/docs/images/*
+!/docs/images/studio-easy.png
+!/docs/images/android-v031-easy.png
+!/docs/images/android-v031-drum.png
+!/docs/images/android-v031-key.png

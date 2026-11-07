@@ -1,0 +1,71 @@
+{
+  "tinySoundFontCommit": "853a0a171759f1ddba0de1442133a75912bbeffa",
+  "verifiedDebianArchive": {
+    "url": "https://deb.debian.org/debian/pool/main/f/fluid-soundfont/fluid-soundfont-gm_3.1-6_all.deb",
+    "size": 119613032,
+    "sha256": "9965fbcc6acee17d6f72b685d28c7f968ec64eba14645445b476d5c6cc2eee4c",
+    "extractedOnly": [
+      "usr/share/sounds/sf2/FluidR3_GM.sf2",
+      "usr/share/doc/fluid-soundfont-gm/copyright"
+    ],
+    "neverExecutedOrInstalled": true
+  },
+  "files": [
+    {
+      "path": "vendor/tinysoundfont/tsf.h",
+      "url": "https://raw.githubusercontent.com/schellingb/TinySoundFont/853a0a171759f1ddba0de1442133a75912bbeffa/tsf.h",
+      "size": 92719,
+      "sha256": "70d55963c98f60ebb81518eaa1f25d46888d5180eb5f5289fd6b74ffc177d197",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/tinysoundfont/LICENSE",
+      "url": "https://raw.githubusercontent.com/schellingb/TinySoundFont/853a0a171759f1ddba0de1442133a75912bbeffa/LICENSE",
+      "size": 1155,
+      "sha256": "ef10cb839de73fb6d5d32ea7151979e87809a6df70dc7e7ee8457ae1c9e7aa7e",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/licenses/TinySoundFont-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/schellingb/TinySoundFont/853a0a171759f1ddba0de1442133a75912bbeffa/LICENSE",
+      "size": 1155,
+      "sha256": "ef10cb839de73fb6d5d32ea7151979e87809a6df70dc7e7ee8457ae1c9e7aa7e",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/FluidR3_GM.sf2",
+      "url": "https://deb.debian.org/debian/pool/main/f/fluid-soundfont/fluid-soundfont-gm_3.1-6_all.deb",
+      "size": 148398306,
+      "sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+      "license": "MIT (font data only)"
+    },
+    {
+      "path": "assets/licenses/FluidR3-copyright.txt",
+      "url": "https://metadata.ftp-master.debian.org/changelogs/main/f/fluid-soundfont/fluid-soundfont_3.1-6_copyright",
+      "size": 1594,
+      "sha256": "da49177f21a8a760192909bc81b2554a33241502f67e604c92799998ac400ae9",
+      "license": "MIT font; separate GPL-2+ Debian packaging NOT shipped"
+    },
+    {
+      "path": "assets/licenses/NDK-libcxxabi-NOTICE.txt",
+      "url": "Installed Android NDK 23.1.7779620 / sources/cxx-stl/llvm-libc++abi/NOTICE",
+      "size": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "license": "LLVM / MIT / University of Illinois notices as retained"
+    },
+    {
+      "path": "assets/licenses/NDK-toolchain-NOTICE.txt",
+      "url": "Installed Android NDK 23.1.7779620 / toolchains/llvm/prebuilt/darwin-x86_64/NOTICE",
+      "size": 130424,
+      "sha256": "f96f763beb66a7ba7a667647fc64c0226ace875e590c831fdd9579ec1c1d91e1",
+      "license": "LLVM toolchain / libc++ notices as retained"
+    }
+  ],
+  "limits": [
+    "Unmodified full bank, not pruned.",
+    "MIT applies to font, not the separate Debian packaging. No maintainer scripts distributed.",
+    "TSF omits SF2 modulators, reverb and chorus; physical timbre not accepted.",
+    "NDK 23.1.7779620, static libc++; arm64-v8a only, API 26, AAudio float stereo 48000Hz.",
+    "No guarantee of provenance beyond retained notices. Private local prototype, no uploads/public distribution."
+  ]
+}

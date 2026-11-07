@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# These files are pinned byte-for-byte by instrument-sources.json.
+/android/vendor/tinysoundfont/tsf.h -text
+/android/vendor/tinysoundfont/LICENSE -text
+/android/assets/licenses/* -text
+
+*.png binary
+*.jpg binary
+*.icns binary
+*.wav binary

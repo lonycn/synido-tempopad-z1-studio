@@ -1,0 +1,66 @@
+Custom synthesized starter sounds. Not an official Synido preset.
+PAD 1-16: drums. PAD 17-64: C major pentatonic plucks.
+01: Kick Deep
+02: Kick Punch
+03: Snare
+04: Rim Snare
+05: Closed Hat
+06: Open Hat
+07: Clap
+08: Tom High
+09: Tom Mid
+10: Tom Low
+11: Crash Short
+12: Ride
+13: Cowbell
+14: Shaker
+15: Clave
+16: Click
+17: Pentatonic 48
+18: Pentatonic 50
+19: Pentatonic 52
+20: Pentatonic 55
+21: Pentatonic 57
+22: Pentatonic 60
+23: Pentatonic 62
+24: Pentatonic 64
+25: Pentatonic 67
+26: Pentatonic 69
+27: Pentatonic 72
+28: Pentatonic 74
+29: Pentatonic 76
+30: Pentatonic 79
+31: Pentatonic 81
+32: Pentatonic 84
+33: Pentatonic 86
+34: Pentatonic 88
+35: Pentatonic 91
+36: Pentatonic 93
+37: Pentatonic 96
+38: Pentatonic 98
+39: Pentatonic 100
+40: Pentatonic 103
+41: Pentatonic 105
+42: Pentatonic 108
+43: Pentatonic 110
+44: Pentatonic 112
+45: Pentatonic 115
+46: Pentatonic 117
+47: Pentatonic 120
+48: Pentatonic 122
+49: Pentatonic 124
+50: Pentatonic 127
+51: Pentatonic 129
+52: Pentatonic 132
+53: Pentatonic 134
+54: Pentatonic 136
+55: Pentatonic 139
+56: Pentatonic 141
+57: Pentatonic 144
+58: Pentatonic 146
+59: Pentatonic 148
+60: Pentatonic 151
+61: Pentatonic 153
+62: Pentatonic 156
+63: Pentatonic 158
+64: Pentatonic 160
